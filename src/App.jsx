@@ -62,7 +62,7 @@
 
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Change this line
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Change this line
 import Home from './Components/Home';
 import Events from './Components/Events/Events';
 import ContactUs from './Components/ContactUs';
